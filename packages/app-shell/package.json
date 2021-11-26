@@ -1,0 +1,40 @@
+{
+  "name": "my-coding-zone-piral-app",
+  "version": "0.1.0",
+  "description": "My Coding Zone sample app shell",
+  "author": "Florian Rappl <florian.rappl@smapiot.com>",
+  "homepage": "https://my-coding-zone.samples.piral.cloud",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "declaration": "piral declaration",
+    "start": "piral debug",
+    "build": "piral build"
+  },
+  "main": "./src/index.tsx",
+  "types": "./dist/index.d.ts",
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [],
+    "scripts": {},
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": ""
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "sass": "^1.25.0",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "piral": "0.14.3"
+  }
+}

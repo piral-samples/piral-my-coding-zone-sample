@@ -1,0 +1,37 @@
+{
+  "name": "@my-coding-zone/demo",
+  "version": "0.1.0",
+  "description": "First (integrated) demo pilet of the My Coding Zone Piral App",
+  "keywords": [
+    "pilet"
+  ],
+  "devDependencies": {
+    "my-coding-zone-piral-app": "^0.1.0"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "my-coding-zone-piral-app": "*",
+    "history": "*",
+    "path-to-regexp": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade",
+    "upgrade-pilet": "pilet upgrade --force-overwrite yes"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "my-coding-zone-piral-app"
+  }
+}
